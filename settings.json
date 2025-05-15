@@ -21,6 +21,8 @@
     ]
   },
 
+  "window.zoomLevel": 0.5,
+
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -32,6 +34,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "none",
+
   "editor.formatOnPaste": true,
 
   "editor.fontFamily": "Geist Mono",
@@ -93,5 +96,6 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
 
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-  ]
+  ],
+  "workbench.colorTheme": "Tokyo Night"
 }
