@@ -92,5 +92,6 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
 
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-  ]
+  ],
+  "workbench.colorTheme": "Tokyo Night"
 }
