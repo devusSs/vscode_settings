@@ -8,7 +8,6 @@
   "update.showReleaseNotes": false,
   "zenMode.hideLineNumbers": false,
   "editor.lineNumbers": "relative",
-  "workbench.iconTheme": "material-icon-theme",
 
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
@@ -21,7 +20,7 @@
     ]
   },
 
-  "window.zoomLevel": 0.5,
+  "editor.fontFamily": "FiraMono Nerd Font Mono",
 
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -36,9 +35,6 @@
   "workbench.startupEditor": "none",
 
   "editor.formatOnPaste": true,
-
-  "editor.fontFamily": "Geist Mono",
-  "editor.fontLigatures": true,
 
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
@@ -96,6 +92,5 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
 
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-  ],
-  "workbench.colorTheme": "Tokyo Night"
+  ]
 }
